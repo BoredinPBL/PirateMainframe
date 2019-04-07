@@ -7,8 +7,8 @@ them into the ROS network as "RawControl" messages.
 
 https://github.com/elanthis/gamepad/blob/master/gamepad.h
 
-Author: Benjamin Steer
-Organisation: Nova Rover Team
+Author: DrNova
+Organisation: Pirate Nova Rover Team
 */
 
 #include "ros/ros.h"

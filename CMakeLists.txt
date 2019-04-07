@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(mainframe)
+project(PirateMainframe)
 
 ## Add support for C++11, supported in ROS Kinetic and newer
 #add_definitions(-std=c++11)
@@ -234,8 +234,9 @@ add_executable(overlord src/overlord.cpp)
 target_link_libraries(overlord ${catkin_LIBRARIES})
 add_dependencies(overlord mainframe_generate_messages_cpp)
 
-add_executable(stateman src/stateman.cpp)
-target_link_libraries(stateman ${catkin_LIBRARIES} ${Boost_LIBRARIES})
-add_dependencies(stateman mainframe_generate_messages_cpp)
+## stateman knocked out for simplicity
+##add_executable(stateman src/stateman.cpp)
+##target_link_libraries(stateman ${catkin_LIBRARIES} ${Boost_LIBRARIES})
+##add_dependencies(stateman mainframe_generate_messages_cpp)
 
 
