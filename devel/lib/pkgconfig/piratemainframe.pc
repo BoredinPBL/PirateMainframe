@@ -1,0 +1,8 @@
+prefix=/home/legionhive/GitPlayground/ws_PirateMainframe/devel
+
+Name: piratemainframe
+Description: Description of piratemainframe
+Version: 0.0.1
+Cflags: -I/home/legionhive/GitPlayground/ws_PirateMainframe/devel/include
+Libs: -L/home/legionhive/GitPlayground/ws_PirateMainframe/devel/lib 
+Requires: message_runtime

@@ -1,0 +1,2 @@
+piratemainframe
+-DCATKIN_DEVEL_PREFIX=/home/legionhive/GitPlayground/ws_PirateMainframe/devel -DCMAKE_INSTALL_PREFIX=/home/legionhive/GitPlayground/ws_PirateMainframe/install -G Unix Makefiles

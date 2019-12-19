@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC   -shared -Wl,-soname,libgamepad.so -o /home/legionhive/GitPlayground/ws_PirateMainframe/devel/lib/libgamepad.so CMakeFiles/gamepad.dir/include/gamepad/gamepad.c.o 
